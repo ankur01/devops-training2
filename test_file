@@ -3,3 +3,4 @@ There is another changes after authentication access
 switch to release branch and make changes on row 3
 day4 - adding little change after commiting it to server
 day5- checking git diff & git fiff staged functionality
+day6- checking undoing things commit --amend command
