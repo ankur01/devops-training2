@@ -1,0 +1,9 @@
+applications:
+- path: target/hello-world-war-1.0.0.war
+  name: java-helloworld-project
+  memory: 1GB
+  instances: 1
+  host: java-helloworld-project
+  disk_quota: 1024M
+  services:
+   - autoscale-development
