@@ -1,0 +1,14 @@
+version: '3'
+services:
+  WebApp:
+    restart: always
+    image: @DOCKER_IMAGE@
+    environment: 
+      - USER=@DOCKER_RUNTIME_USER@
+      - GID=@DOCKER_RUNTIME_GID@
+      - UID=@DOCKER_RUNTIME_UID@
+    ports:
+      - "8080:8080"
+    volumes:
+      - /home/test/logs:/usr/local/tomcat/logs
+
