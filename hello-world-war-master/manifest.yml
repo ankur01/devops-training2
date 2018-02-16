@@ -3,6 +3,7 @@ applications:
   name: java-helloworld-project
   memory: 1GB
   instances: 1
+  hostname: java-helloworld-project
   disk_quota: 1024M
   services:
    - autoscale-development
